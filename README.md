@@ -2,6 +2,12 @@
 
 Four-person CSCI 316 group project using 145,460 daily Australian weather observations to predict `RainTomorrow`. **My original contribution was sections (a) and (b): exploration, cleaning, derived features and the preprocessing pipeline.** Other members implemented model training, tuning and evaluation. Names remain in the notebook.
 
+## Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat)
+
+**My original implementation:** data exploration, derived features and the scikit-learn preprocessing pipeline. Other members handled model training and evaluation in the original submission.
+
 ## What I worked on
 
 Missingness alone is not a sufficient reason to discard a column. The training-data plot compares missing rates with absolute target correlation: highly incomplete sunshine/cloud measurements can still show useful association. `Evaporation` is dropped as a simple exploratory choice, while remaining numeric gaps are median-imputed and categorical gaps mode-imputed.
