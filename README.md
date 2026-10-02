@@ -1,6 +1,6 @@
 # Rain in Australia — feature engineering and preprocessing
 
-Four-person CSCI 316 group project using 145,460 daily Australian weather observations to predict `RainTomorrow`. **My original contribution was sections (a) and (b): exploration, cleaning, derived features and the preprocessing pipeline.** Other members implemented model training, tuning and evaluation. Names remain in the notebook.
+Four-person university group project using 145,460 daily Australian weather observations to predict `RainTomorrow`. **My original contribution was sections (a) and (b): exploration, cleaning, derived features and the preprocessing pipeline.** Other members implemented model training, tuning and evaluation. Names remain in the notebook.
 
 ## Tech stack
 
